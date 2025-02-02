@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Face AI</string>
-    <string name="mask_type_empty">Ничего</string>
-    <string name="mask_type_contour">Контуры лица</string>
-    <string name="mask_type_fill_face">Все лицо</string>
+    <string name="mask_type_empty">Nothing</string>
+    <string name="mask_type_contour">Contours</string>
+    <string name="mask_type_fill_face">Full</string>
+    <string name="need_permissions">For the application to work we need access to your camera</string>
+    <string name="provide_permissions">Provide</string>
 </resources>

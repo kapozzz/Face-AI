@@ -5,7 +5,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.drawscope.DrawScope
-import com.example.faceai.core.ui.copy
+import com.example.faceai.core.common.copy
 import com.example.faceai.domain.ImageFrame
 import com.example.faceai.domain.Sizes
 import com.example.faceai.features.camera.components.clear

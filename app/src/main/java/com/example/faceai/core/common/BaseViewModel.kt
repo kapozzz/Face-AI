@@ -1,4 +1,4 @@
-package com.example.faceai.core.ui
+package com.example.faceai.core.common
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

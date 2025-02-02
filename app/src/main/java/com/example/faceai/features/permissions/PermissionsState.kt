@@ -1,8 +1,8 @@
 package com.example.faceai.features.permissions
 
-import com.example.faceai.core.ui.UiEffect
-import com.example.faceai.core.ui.UiEvent
-import com.example.faceai.core.ui.UiState
+import com.example.faceai.core.common.UiEffect
+import com.example.faceai.core.common.UiEvent
+import com.example.faceai.core.common.UiState
 
 data class PermissionsState(val isGranted: Boolean = false): UiState
 

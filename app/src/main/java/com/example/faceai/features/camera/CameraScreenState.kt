@@ -4,9 +4,9 @@ import androidx.annotation.StringRes
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import com.example.faceai.R
-import com.example.faceai.core.ui.UiEffect
-import com.example.faceai.core.ui.UiEvent
-import com.example.faceai.core.ui.UiState
+import com.example.faceai.core.common.UiEffect
+import com.example.faceai.core.common.UiEvent
+import com.example.faceai.core.common.UiState
 import com.example.faceai.domain.ImageFrame
 
 data class CameraScreenState(

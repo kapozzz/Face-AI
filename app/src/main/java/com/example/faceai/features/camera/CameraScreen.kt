@@ -11,13 +11,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.hilt.getViewModel
-import com.example.faceai.domain.ColoredContour
 import com.example.faceai.domain.Sizes
 import com.example.faceai.features.camera.components.CameraPreview
 import com.example.faceai.features.camera.components.PickMaskTypeButton
 import com.example.faceai.features.camera.components.masks.ColoredFillMask
 import com.example.faceai.features.camera.components.masks.ColoredPointsMask
-import com.google.mlkit.vision.face.FaceContour
 
 class CameraScreen : Screen {
 
@@ -59,15 +57,9 @@ class CameraScreen : Screen {
                 onMaskClickAction = {
                     viewModel.setEvent(CameraScreenEvent.SetMask(it))
                 },
-                modifier = Modifier
-                    .align(Alignment.BottomCenter)
-                    .padding(16.dp)
+                modifier = Modifier.align(Alignment.BottomCenter)
             )
 
-//            YeyCoreMask(
-//                imageFrame = viewModel.currentState.currentFrame.value,
-//                screenSizes = Sizes(screenHeight, screenWidth)
-//            )
         }
     }
 

@@ -1,4 +1,4 @@
-package com.example.faceai.core.ui
+package com.example.faceai.core.common
 
 import android.graphics.PointF
 import com.google.mlkit.vision.face.FaceContour

@@ -22,6 +22,7 @@ import cafe.adriel.voyager.navigator.Navigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import com.example.faceai.features.camera.CameraScreen
 import com.example.faceai.features.permissions.components.NeedPermissionsItem
+import com.kapozzz.ui.AppTheme
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.collectLatest
 
@@ -47,7 +48,7 @@ class PermissionsScreen: Screen {
 
     private fun handleEffect(effect: PermissionsEffect, navigator: Navigator) {
         when(effect) {
-            PermissionsEffect.OpenCamera -> navigator.push(CameraScreen())
+            is PermissionsEffect.OpenCamera -> navigator.push(CameraScreen())
         }
     }
 
@@ -59,10 +60,9 @@ class PermissionsScreen: Screen {
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color(0xFFE7ECEF)),
+                .background(AppTheme.colors.background),
             contentAlignment = Alignment.Center
         ) {
-
             val permissionLauncher = rememberLauncherForActivityResult(
                 contract = ActivityResultContracts.RequestMultiplePermissions()
             ) { permissions ->
@@ -79,7 +79,7 @@ class PermissionsScreen: Screen {
     }
 
     companion object {
-        private val REQUIRED_PERMISSIONS =
+        val REQUIRED_PERMISSIONS =
             mutableListOf(
                 Manifest.permission.CAMERA,
                 Manifest.permission.RECORD_AUDIO

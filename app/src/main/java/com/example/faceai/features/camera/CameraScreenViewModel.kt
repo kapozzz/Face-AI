@@ -1,8 +1,7 @@
 package com.example.faceai.features.camera
 
-import com.example.faceai.core.ui.BaseViewModel
+import com.example.faceai.core.common.BaseViewModel
 import com.example.faceai.domain.ImageFrame
-import com.google.mlkit.vision.face.Face
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

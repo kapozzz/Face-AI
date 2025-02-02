@@ -1,7 +1,9 @@
 package com.example.faceai.features.permissions
 
-import com.example.faceai.core.ui.BaseViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.faceai.core.common.BaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
@@ -17,7 +19,6 @@ class PermissionsViewModel @Inject constructor()
     }
 
     private fun permissionsGranted() {
-        // save to data store
         setEffect(PermissionsEffect.OpenCamera)
     }
 
