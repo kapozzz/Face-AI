@@ -12,6 +12,6 @@ width="180dp" hspace="10" vspace="10">
 
 ## Download:
 
-### [**Android**](https://github.com/kapozzz/Face-AI/blob/main/apks/faceai.apk)
+### [**Android**](https://github.com/kapozzz/Face-AI/raw/refs/heads/main/apks/faceai.apk)
 
 
