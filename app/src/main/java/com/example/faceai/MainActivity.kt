@@ -6,14 +6,13 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.runtime.LaunchedEffect
 import androidx.core.content.ContextCompat
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.Navigator
 import com.example.faceai.features.camera.CameraScreen
 import com.example.faceai.features.permissions.PermissionsScreen
 import com.example.faceai.features.permissions.PermissionsScreen.Companion.REQUIRED_PERMISSIONS
-import com.kapozzz.ui.AppTheme
+import com.example.faceai.core.ui.AppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

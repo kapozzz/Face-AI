@@ -1,4 +1,4 @@
-package com.kapozzz.ui
+package com.example.faceai.core.ui
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable

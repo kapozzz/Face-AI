@@ -1,4 +1,4 @@
-package com.kapozzz.ui
+package com.example.faceai.core.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.staticCompositionLocalOf

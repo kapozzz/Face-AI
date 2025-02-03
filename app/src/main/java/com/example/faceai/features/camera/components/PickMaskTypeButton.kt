@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.faceai.R
 import com.example.faceai.features.camera.MaskType
-import com.kapozzz.ui.AppTheme
+import com.example.faceai.core.ui.AppTheme
 
 @Composable
 fun PickMaskTypeButton(
